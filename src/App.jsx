@@ -14,6 +14,7 @@ import Technology from './pages/Technology'
 import Support from './pages/Support'
 import About from './pages/About'
 import Quote from './pages/Quote'
+import Privacy from './pages/Privacy'
 import NotFound from './pages/NotFound'
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
           <Route path="/support" element={<Support />} />
           <Route path="/about" element={<About />} />
           <Route path="/quote" element={<Quote />} />
+          <Route path="/privacy" element={<Privacy />} />
           {/* the storefront used to check out; enquiries replaced it */}
           <Route path="/checkout" element={<Navigate to="/quote" replace />} />
           <Route path="*" element={<NotFound />} />

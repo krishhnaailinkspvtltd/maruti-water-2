@@ -12,6 +12,7 @@ const COMPANY_LINKS = [
   ['Compare models', '/compare'],
   ['Service & support', '/support'],
   ['Request a quotation', '/quote'],
+  ['Privacy policy', '/privacy'],
 ]
 
 export default function Footer() {
