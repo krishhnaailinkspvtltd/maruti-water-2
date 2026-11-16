@@ -13,6 +13,7 @@ const COMPANY_LINKS = [
   ['Service & support', '/support'],
   ['Request a quotation', '/quote'],
   ['Privacy policy', '/privacy'],
+  ['Delete my data', '/delete-account'],
 ]
 
 export default function Footer() {

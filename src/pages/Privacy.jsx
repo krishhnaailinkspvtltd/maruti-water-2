@@ -132,8 +132,8 @@ export default function Privacy() {
                 </a>
               ))}
             </div>
-            <Link to="/support" className="btn-ghost btn-sm mt-6">
-              Service &amp; support
+            <Link to="/delete-account" className="btn-ghost btn-sm mt-6">
+              Delete my data
             </Link>
           </aside>
         </div>
